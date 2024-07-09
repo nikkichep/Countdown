@@ -1,45 +1,50 @@
-<!--
-  Hit RUN to see this project in action!
-  
-  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
--->
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Count Down Landing Page </title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <main>
-    <h1 class="title">Welcome to HTML on Replit!</h1>
-    <p class="description">Get started by editing
-      <code class="code">index.html</code>. The webview will auto-refresh as you edit! (See <code
-        class="code">README.md</code> if you want to
-      disable auto-refresh.)
-    </p>
+    <!-- Navbar Starts from Here -->
+    <nav class="navbar">
+        <h2> Navbar Goes Here </h2>
+    </nav>
+    <!-- Navbar Ends Here -->
 
-    <section class="grid">
-      <a href="https://replit.com/learn" class='card'>
-        <h2>Learn &rarr;</h2>
-        <p>Find tutorials on Replit to learn more.</p>
-      </a>
-
-      <a href="https://docs.replit.com/category/deployments" class='card'>
-        <h2>Deploy &rarr;</h2>
-        <p>
-          After you are happy with this app, deploy it on Replit!
-        </p>
-      </a>
+    <!-- Home Section Starts from Here -->
+    <section class="home-section">
+        <div class="home-left">
+            <p> Changing the way you grow your career </p>
+            <p class="heading"> Opportunities <br> <span class="bold-heading"> Designed </span> for Real Life </p>
+            <p class="home-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vel suscipit eveniet est, impedit
+                aperiam assumenda? Nostrum veniam vitae neque similique. Nesciunt quas consequuntur quasi distinctio and
+                more....
+            </p>
+            <div class="contact">
+                <p class="mail">name@youremail.com</p>
+                <a href="#"> Subscribe </a>
+            </div>
+        </div>
+        <div class="home-right">
+            <img src="./itemImage.png" alt="">
+        </div>
     </section>
-  </main>
+    <!-- Home Section Ends Here -->
 
-  <script type="module" src="script.js"></script>
-
+    <!-- Countdown Section Starts from Here -->
+    <section class="countdown">
+        <p> We can't wait to show you what we've got preapred </p>
+        <div class="timer-container">
+            <p> <span class="number">24</span> <br> <span class="days">Days</span> </p>
+            <p> <span class="number">12</span> <br><span class="days">Days</span> </p>
+            <p> <span class="number">12</span> <br><span class="minutes"> Minutes </span> </p>
+            <p> <span class="number">25</span> <br><span class="minutes"> Seconds </span> </p>
+        </div>
+    </section>
+    <!-- Countdown Section Ends Here -->
 </body>
-
 </html>
